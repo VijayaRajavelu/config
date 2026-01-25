@@ -1,0 +1,12 @@
+# Shared configuration for all services
+resilience4j:
+  logging:
+    level:
+      com.example.feign: DEBUG
+      org.springframework.cloud.openfeign: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
