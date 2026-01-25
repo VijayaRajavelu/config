@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=productdb;encrypt=false
+    url: jdbc:sqlserver://localhost:1434;databaseName=productdb;encrypt=false
     username: maysha
     password: maysha123
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
