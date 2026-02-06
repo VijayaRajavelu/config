@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:sqlserver://localhost:1434;databaseName=producttdb;encrypt=false
-    username: maysha
-    password: maysha123
+    username: user
+    password: password
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
   jpa:
